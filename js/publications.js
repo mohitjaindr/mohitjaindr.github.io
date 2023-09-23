@@ -13,3 +13,7 @@ $('#checkboxes-p').click(function() {
 $('#checkboxes-w').click(function() {
   $(".workshop").toggle(this.checked);
 });
+
+$('#checkboxes-a').click(function() {
+  $(".arxiv").toggle(this.checked);
+});
